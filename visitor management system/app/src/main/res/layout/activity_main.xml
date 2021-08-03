@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundgradinet">
+
+
+    <TextView
+        android:id="@+id/textVmsbody2"
+        android:layout_width="382dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="monospace"
+        android:text="VISITOR MANAGEMENT SYSTEM"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="monospace"
+            android:text="@string/save_visitors"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/name"
+
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edittext_vehical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/vehical"
+            android:padding="10dp"
+            android:autofillHints="" />
+
+
+        <EditText
+            android:id="@+id/edittext_purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/purpose"
+            android:padding="10dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/Email"
+            android:inputType="textWebEmailAddress"
+            android:padding="10dp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/edittext_no_visitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_background"
+            android:digits="0123456789:"
+            android:hint="@string/no_of_visitors"
+            android:padding="10dp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="monospace"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textview_view_Visitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="monospace"
+            android:text="@string/view_visitors"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

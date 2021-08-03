@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_Visitors"
+    android:background="@drawable/backgroundgradinet">
+
+
+  <TextView
+      android:id="@+id/textVmsmainbody"
+      android:layout_width="382dp"
+      android:layout_height="54dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="15dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="14dp"
+      android:layout_marginBottom="45dp"
+      android:fontFamily="monospace"
+      android:text="VISITOR MANAGEMENT SYSTEM"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.448"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.023" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="monospace"
+        android:text="UPDATE VISITORS"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/update_vehical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Vehical No"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/update_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Purpose"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/update_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Email"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/update_noofvisitors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_background"
+        android:digits="0123456789"
+        android:hint="No of visitors"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="monospace"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="monospace"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="#E30707" />
+
+    <Button
+        android:id="@+id/button_Create_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="monospace"
+        android:text="Create Pass"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+  </LinearLayout>
+
+</RelativeLayout>

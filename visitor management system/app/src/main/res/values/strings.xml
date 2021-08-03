@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">vms2_final</string>
+    <string name="time">time</string>
+    <string name="no_of_visitors">No of visitors</string>
+    <string name="email">email</string>
+    <string name="purpose">Purpose</string>
+    <string name="vehical">Vehical</string>
+
+    <string name="save_visitors">Save Visitors</string>
+    <string name="view_visitors">View Visitors</string>
+    <string name="save">save</string>
+    <string name="Email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="no_of_attempts_remaining">No of attempts remaining:</string>
+</resources>
